@@ -1,0 +1,159 @@
+2. Comparative of single thead, multiprocessing and multi-thread
+Thread() started
+Active Threads:  [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-1, started 123145559474176)>]
+Thread() started
+Active Threads:  [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-1, started 123145559474176)>, <Thread(Thread-2, started 123145564729344)>]
+Thread() started
+Active Threads:  [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-1, started 123145559474176)>, <Thread(Thread-2, started 123145564729344)>, <Thread(Thread-3, started 123145569984512)>]
+Thread() started
+Active Threads:  [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-1, started 123145559474176)>, <Thread(Thread-2, started 123145564729344)>, <Thread(Thread-3, started 123145569984512)>, <Thread(Thread-4, started 123145575239680)>]
+Thread() started
+Active Threads:  [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-1, started 123145559474176)>, <Thread(Thread-2, started 123145564729344)>, <Thread(Thread-3, started 123145569984512)>, <Thread(Thread-4, started 123145575239680)>, <Thread(Thread-5, started 123145580494848)>]
+Thread() started
+Active Threads:  [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-1, started 123145559474176)>, <Thread(Thread-2, started 123145564729344)>, <Thread(Thread-3, started 123145569984512)>, <Thread(Thread-4, started 123145575239680)>, <Thread(Thread-5, started 123145580494848)>, <Thread(Thread-6, started 123145585750016)>]
+Thread() started
+Active Threads:  [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-1, started 123145559474176)>, <Thread(Thread-2, started 123145564729344)>, <Thread(Thread-3, started 123145569984512)>, <Thread(Thread-4, started 123145575239680)>, <Thread(Thread-5, started 123145580494848)>, <Thread(Thread-6, started 123145585750016)>, <Thread(Thread-7, started 123145591005184)>]
+Thread() started
+Active Threads:  [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-1, started 123145559474176)>, <Thread(Thread-2, started 123145564729344)>, <Thread(Thread-3, started 123145569984512)>, <Thread(Thread-4, started 123145575239680)>, <Thread(Thread-5, started 123145580494848)>, <Thread(Thread-6, started 123145585750016)>, <Thread(Thread-7, started 123145591005184)>, <Thread(Thread-8, started 123145596260352)>]
+Thread() started
+Active Threads:  [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-1, started 123145559474176)>, <Thread(Thread-2, started 123145564729344)>, <Thread(Thread-3, started 123145569984512)>, <Thread(Thread-4, started 123145575239680)>, <Thread(Thread-5, started 123145580494848)>, <Thread(Thread-6, started 123145585750016)>, <Thread(Thread-7, started 123145591005184)>, <Thread(Thread-8, started 123145596260352)>, <Thread(Thread-9, started 123145601515520)>]
+Thread() started
+Active Threads:  [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-1, started 123145559474176)>, <Thread(Thread-2, started 123145564729344)>, <Thread(Thread-3, started 123145569984512)>, <Thread(Thread-4, started 123145575239680)>, <Thread(Thread-5, started 123145580494848)>, <Thread(Thread-6, started 123145585750016)>, <Thread(Thread-7, started 123145591005184)>, <Thread(Thread-8, started 123145596260352)>, <Thread(Thread-9, started 123145601515520)>, <Thread(Thread-10, started 123145606770688)>]
+Starting number crunching
+1. Multiple Threads
+Execution Time: 0.020398855209350586
+3. Total Number of Active Threads
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread() finished executing
+Thread() finished executing
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread() finished executing
+Thread() finished executing
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Total Number of Active Threads: 22
+4. Current ID Thread
+Child Thread Starting
+Thread() finished executing
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread() finished executing
+Thread() finished executing
+Thread() finished executing
+Current Thread --------------
+<Thread(Thread-66, started 123145559474176)>
+-----------------------------
+Main Thread -----------------
+<_MainThread(MainThread, started 4694635968)>
+-----------------------------
+Child Thread Ending
+5. Enumerate threads
+Thread(): started
+Thread(): started
+Thread(): started
+Thread(): started
+Enumerating: [<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-4, started 123145575239680)>, <Thread(Thread-9, started 123145601515520)>, <Thread(Thread-67, started 123145559474176)>, <Thread(Thread-68, started 123145564729344)>, <Thread(Thread-69, started 123145569984512)>, <Thread(Thread-70, started 123145580494848)>]
+7. Thread ID
+Thread Thread-0 starting
+Thread Thread-1 starting
+Thread Thread-2 starting
+Thread Thread-3 starting
+[<_MainThread(MainThread, started 4694635968)>, <Thread(Thread-4, started 123145575239680)>, <Thread(Thread-9, started 123145601515520)>, <Thread(Thread-67, started 123145559474176)>, <Thread(Thread-68, started 123145564729344)>, <Thread(Thread-69, started 123145569984512)>, <Thread(Thread-70, started 123145580494848)>, <Thread(Thread-0, started 123145585750016)>, <Thread(Thread-1, started 123145591005184)>, <Thread(Thread-2, started 123145596260352)>, <Thread(Thread-3, started 123145606770688)>]
+8. Stopping Threads mechanism
+Process: <Process(Process-1, initial)>
+Terminating Process...
+Process Terminated: <Process(Process-1, stopped[SIGTERM])>
+Thread() finished executing
+Thread() finished executing
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread(): finished
+Thread Thread-0 ending
+Thread Thread-2 ending
+Thread Thread-3 ending
+Thread Thread-1 ending
